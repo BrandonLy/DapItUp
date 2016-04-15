@@ -1,0 +1,4 @@
+/node_modules/
+/sass/
+.codekit-cache
+.DS_Store
