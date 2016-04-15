@@ -1374,7 +1374,7 @@ body {
 .items-wrapper {
   position: relative;
   width: 600px;
-  height: 500px;
+  min-height: 500px;
   margin: 0 auto; }
 
 .products-div {
@@ -1550,7 +1550,9 @@ footer {
     .application-wrapper .shop-items {
       position: relative;
       width: 100%;
-      min-height: 1100px; }
+      min-height: 1200px; }
+      .application-wrapper .shop-items .shop-category {
+        top: 30%; }
     .application-wrapper .items-wrapper {
       max-height: 100%; }
 
